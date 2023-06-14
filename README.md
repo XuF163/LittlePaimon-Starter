@@ -10,7 +10,7 @@ bash < <(curl -sL https://raw.githubusercontent.com/XuF163/LittlePaimon-Starter/
 ```
 bash < <(curl -sL https://raw.githubusercontent.com/XuF163/LittlePaimon-Starter/dev/pymon.sh)
 ```
-#gitee库    
+##gitee库    
 ```
 bash < <(curl -sL gitee.com/xyzqwefd/LittlePaimon-Starter/raw/main/pymon.sh)
 ```
