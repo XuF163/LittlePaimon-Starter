@@ -15,7 +15,7 @@ pipx ensurepath
 
 # 安装 nb-cli
 pipx install nb-cli
-
+pipx ensurepath
 source ~/.bashrc
 # 安装 nonebot 脚手架
 nb self install nb-cli-plugin-littlepaimon
