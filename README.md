@@ -4,7 +4,9 @@
 
 安装
 
-bash <(curl -sL https://raw.githubusercontent.com/XuF163/LittlePaimon-Starter/main/pymon.sh)
+bash <(curl -sL https://raw.githubusercontent.com/XuF163/LittlePaimon-Starter/main/pymon.sh)  
+开发版本
+bash <(curl -sL https://raw.githubusercontent.com/XuF163/LittlePaimon-Starter/dev/pymon.sh)  
 
 如果暂停了就按回车或者输入 y
 别管辣么多
