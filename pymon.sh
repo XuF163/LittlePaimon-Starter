@@ -42,8 +42,9 @@ echo 'alias nudeApp="nb paimon run"' >> ~/.bashrc
 
 
 echo "输入nudePaimon加载项目资源，findPaimon进入派蒙"
+# 重启
+echo "即将重启系统，请坐和放宽..."
 sleep 3
-echo "配置完成，即将重启"
-echo "请坐和放宽"
+sudo reboot
 
 
