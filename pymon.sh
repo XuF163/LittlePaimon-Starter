@@ -18,6 +18,8 @@ pipx install nb-cli
 
 # 安装 nonebot 脚手架
 nb self install nb-cli-plugin-littlepaimon
+#帮你擦下屏幕
+clear
 
 # 创建项目并设置相关配置
 nb paimon create&&cd LittlePaimon&&nb paimon res&&nb paimon run playwright install chromium --with-deps
