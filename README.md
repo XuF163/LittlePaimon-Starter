@@ -5,3 +5,6 @@
 安装
 
 bash <(curl -sL https://github.com/XuF163/LittlePaimon-Starter/blob/main/pymon.sh )
+
+如果暂停了就按回车或者输入 y
+别管辣么多
