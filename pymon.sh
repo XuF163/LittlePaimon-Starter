@@ -6,7 +6,6 @@ pipx ensurepath  # 把pipx添加到环境变量
 pipx install nb-cli  # 安装nonebot脚手架
 nb self install nb-cli-plugin-littlepaimon  # 安装小派蒙脚手架插件
 nb paimon create  # 创建小派蒙项目
-expect
 cd LittlePaimon  # LittlePaimon为你刚刚填写的项目目录名
 nb paimon res  # 给出的两次选择均保持默认(回车两次)
 nb paimon run playwright install chromium --with-deps  # 安装playwright相关依赖
