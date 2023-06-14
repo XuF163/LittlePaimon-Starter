@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su root
 echo "如果遇到代码不跑的情况就按回车 yes or no 的选项直接y  2023-6更新"
 sudo su root # 获取root权限，如果本来就以root权限登录，那可以跳过
 
