@@ -41,8 +41,8 @@ read -r
 # 创建项目并设置相关配置
 echo 'alias nudePaimon="nb paimon create"' >> ~/.bashrc
 echo 'alias findPaimon="cd LittlePaimon"' >> ~/.bashrc
-echo 'alias nudeApp="nb paimon run"' >> ~/.bashrc
-
+echo 'alias NudeApp="nb paimon run"' >> ~/.bashrc
+echo 'alias nudeApp="cd LittlePaimon&&nb paimon run"' >> ~/.bashrc
 
 echo "输入nudePaimon加载项目资源，findPaimon进入派蒙"
 # 重启
