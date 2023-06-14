@@ -18,9 +18,7 @@ pipx install nb-cli
 nb self install nb-cli-plugin-littlepaimon
 
 # 创建项目并设置相关配置
-nb paimon create
-cd LittlePaimon
-nb paimon res
+nb paimon create&&cd LittlePaimon&&nb paimon res
 
 # 安装 Playwright 依赖
 nb paimon run playwright install chromium --with-deps
