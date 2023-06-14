@@ -2,6 +2,7 @@
 apt update && apt upgrade  # 更新系统
 apt install pipx  # 安装pipx
 pipx ensurepath  # 把pipx添加到环境变量
+gnome-terminal -x
 pipx install nb-cli  # 安装nonebot脚手架
 nb self install nb-cli-plugin-littlepaimon  # 安装小派蒙脚手架插件
 nb paimon create  # 创建小派蒙项目
