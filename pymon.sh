@@ -38,8 +38,9 @@ echo "准备敲回车键继续"
 read -r
 
 # 创建项目并设置相关配置
-alias[nude Paimon='nb paimon create'] 
-alias[find Paimon='cd Littlepaimon']
-alias[nude app='nb paimon run']
-echo "输入nude Paimon加载项目资源，findPaimon进入派蒙"
+alias nudePaimon='nb paimon create'
+alias findPaimon='cd LittlePaimon'
+alias nudeApp='nb paimon run'
+echo "输入nudePaimon加载项目资源，findPaimon进入派蒙"
+
 
