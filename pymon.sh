@@ -17,7 +17,7 @@ pipx ensurepath
 pipx install nb-cli
 import os
 a = os.system('clear')
-gnome-terminal -x bash -c "nb self install nb-cli-plugin-littlepaimon"
+reset
 # 安装 nonebot 脚手架
 nb self install nb-cli-plugin-littlepaimon
 #帮你擦下屏幕
