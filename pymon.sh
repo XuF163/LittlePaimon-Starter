@@ -39,6 +39,7 @@ read -r
 
 # 创建项目并设置相关配置
 nb paimon create 
+read -r
 cd LittlePaimon 
 nb paimon res 
 nb paimon run playwright install chromium --with-deps
