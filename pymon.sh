@@ -3,7 +3,7 @@ echo"如果遇到代码不跑的情况就按回车 yes or no 的选项直接y"
 sudo -i  # 获取root权限，如果本来就以root权限登录，那可以跳过
 
 # 更新软件包并升级系统
-apt update && apt upgrade -y
+apt update -y && apt upgrade -y
 
 # 安装 pipx
 apt install -y python3-pip
