@@ -38,5 +38,8 @@ echo "准备敲回车键继续"
 read -r
 
 # 创建项目并设置相关配置
-nb paimon create && cd LittlePaimon && nb paimon res && nb paimon run playwright install chromium --with-deps
+nb paimon create 
+cd LittlePaimon 
+nb paimon res 
+nb paimon run playwright install chromium --with-deps
 
