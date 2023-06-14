@@ -26,4 +26,6 @@ clear
 #提示
 echo "准备敲回车键力"
 # 创建项目并设置相关配置
+import os
+a = os.system('clear')
 nb paimon create&&cd LittlePaimon&&nb paimon res&&nb paimon run playwright install chromium --with-deps
