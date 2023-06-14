@@ -21,5 +21,7 @@ nb self install nb-cli-plugin-littlepaimon
 #帮你擦下屏幕
 clear
 
+#提示
+echo"准备敲回车键力"
 # 创建项目并设置相关配置
 nb paimon create&&cd LittlePaimon&&nb paimon res&&nb paimon run playwright install chromium --with-deps
