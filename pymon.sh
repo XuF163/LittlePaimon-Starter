@@ -38,9 +38,14 @@ echo "天理降临ing"
 read -r
 
 # 创建项目并设置相关配置
-alias nudePaimon='nb paimon create'
-alias findPaimon='cd LittlePaimon'
-alias nudeApp='nb paimon run'
+echo 'alias nudePaimon="nb paimon create"' >> ~/.bashrc
+echo 'alias findPaimon="cd LittlePaimon"' >> ~/.bashrc
+echo 'alias nudeApp="nb paimon run"' >> ~/.bashrc
+
+
 echo "输入nudePaimon加载项目资源，findPaimon进入派蒙"
+sleep 3
+echo "配置完成，即将重启"
+echo "请坐和放宽"
 
 
