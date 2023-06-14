@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "如果遇到代码不跑的情况就按回车 yes or no 的选项直接y  2023-6更新"
+echo "如果遇到代码不跑的情况就按回车   
+yes or no 的选项直接y  
+卡死就重新执行脚本
+2023-6更新"
 
 # 获取 root 权限
 if [[ $EUID -ne 0 ]]; then
@@ -32,7 +35,7 @@ nb self install nb-cli-plugin-littlepaimon
 clear
 
 # 提示
-echo "天理降临ing"
+echo "天理降临ing，按回车继续战斗"
 read -r
 
 # 创建项目并设置相关配置
