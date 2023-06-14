@@ -15,6 +15,8 @@ pipx ensurepath
 
 # 安装 nb-cli
 pipx install nb-cli
+import os
+a = os.system('clear')
 
 # 安装 nonebot 脚手架
 nb self install nb-cli-plugin-littlepaimon
