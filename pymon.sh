@@ -18,7 +18,7 @@ pipx install nb-cli
 import os
 a = os.system('clear')
 sudo su root
-
+source ~/.bashrc
 # 安装 nonebot 脚手架
 nb self install nb-cli-plugin-littlepaimon
 #帮你擦下屏幕
