@@ -34,7 +34,7 @@ nb self install nb-cli-plugin-littlepaimon
 clear
 
 # 提示
-echo "准备敲回车键继续"
+echo "天理降临ing"
 read -r
 
 # 创建项目并设置相关配置
