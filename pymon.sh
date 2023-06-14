@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 apt update && apt upgrade  # 更新系统
 apt install pipx  # 安装pipx
 pipx ensurepath  # 把pipx添加到环境变量
