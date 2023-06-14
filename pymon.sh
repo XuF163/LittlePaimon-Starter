@@ -1,5 +1,5 @@
 #!/bin/bash
-echo"如果遇到代码不跑的情况就按回车 yes or no 的选项直接y  2023-6更新"
+echo "如果遇到代码不跑的情况就按回车 yes or no 的选项直接y  2023-6更新"
 sudo su root # 获取root权限，如果本来就以root权限登录，那可以跳过
 
 # 更新软件包并升级系统
@@ -22,6 +22,6 @@ nb self install nb-cli-plugin-littlepaimon
 clear
 
 #提示
-echo"准备敲回车键力"
+echo "准备敲回车键力"
 # 创建项目并设置相关配置
 nb paimon create&&cd LittlePaimon&&nb paimon res&&nb paimon run playwright install chromium --with-deps
