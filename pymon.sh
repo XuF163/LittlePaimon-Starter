@@ -13,11 +13,11 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # 设置 pipx 环境变量
 pipx ensurepath
-
+source ~/.bashrc
 # 安装 nb-cli
 pipx install nb-cli
-pipx ensurepath
-source ~/.bashrc
+
+
 # 安装 nonebot 脚手架
 nb self install nb-cli-plugin-littlepaimon
 #帮你擦下屏幕
