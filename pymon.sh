@@ -1,4 +1,5 @@
 #!/bin/bash
+echo"如果遇到代码不跑的情况就按回车 yes or no 的选项直接y"
 
 # 更新软件包并升级系统
 apt update && apt upgrade -y
