@@ -25,6 +25,8 @@ apt install pipx
 # 设置 pipx 环境变量
 pipx ensurepath
 
+# 清屏
+clear
 # 安装 nb-cli
 pipx install nb-cli
 
