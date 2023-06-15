@@ -3,7 +3,7 @@
 echo "如果遇到代码不跑的情况就按回车   
 yes or no 的选项直接y  
 卡死就重新执行脚本
-2023-6更新"
+2023--6更新"
 
 # 获取 root 权限
 if [[ $EUID -ne 0 ]]; then
@@ -15,10 +15,10 @@ if [[ $EUID -ne 0 ]]; then
     fi
 fi
 
-# 更新软件包并升级系统
+
 sudo apt update -y && sudo apt upgrade -y
 
-# 安装 pipx
+
 apt install pipx
 pipx ensurepath# 设置 pipx 环境变量
 source ~/.bashrc
@@ -28,22 +28,20 @@ source ~/.profile
 
 
 
-# 清屏
+
 clear
-# 安装 nb-cli
+
 pipx install nb-cli
 
-# 安装 nonebot 脚手架
+
 nb self install nb-cli-plugin-littlepaimon
 
-# 清屏
+
 clear
 
-# 提示
 echo "天理降临ing，按回车继续战斗"
 read -r
 
-# 创建项目并设置相关配置
 echo '1="nb paimon create"' >> ~/.bashrc
 echo '2="cd LittlePaimon"' >> ~/.bashrc
 echo 'P="nb paimon run"' >> ~/.bashrc
