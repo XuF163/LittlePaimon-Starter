@@ -19,6 +19,7 @@ fi
 sudo apt update -y && sudo apt upgrade -y
 
 # 安装 pipx
+apt install pipx
 sudo apt install -y python3-pip
 pip install --user pipx
 
