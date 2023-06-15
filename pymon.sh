@@ -20,10 +20,13 @@ sudo apt update -y && sudo apt upgrade -y
 
 # 安装 pipx
 apt install pipx
+pipx ensurepath# 设置 pipx 环境变量
+source ~/.bashrc
+source ~/.profile
 
 
-# 设置 pipx 环境变量
-pipx ensurepath
+
+
 
 # 清屏
 clear
