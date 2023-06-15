@@ -51,6 +51,6 @@ echo "输入nudePaimon加载项目资源，findPaimon进入派蒙"
 # 重启
 echo "即将重启系统，请坐和放宽..."
 sleep 3
-sudo reboot
+#sudo reboot
 
 
