@@ -42,8 +42,8 @@ clear
 echo "天理降临ing，按回车继续战斗"
 read -r
 
-echo '1="nb paimon create"' >> ~/.bashrc
-echo '2="cd LittlePaimon"' >> ~/.bashrc
+echo 'u="nb paimon create"' >> ~/.bashrc
+echo 'i="cd LittlePaimon"' >> ~/.bashrc
 echo 'P="nb paimon run"' >> ~/.bashrc
 echo 'p="cd LittlePaimon&&nb paimon run"' >> ~/.bashrc
 
