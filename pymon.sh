@@ -15,7 +15,11 @@ if [[ $EUID -ne 0 ]]; then
     fi
 fi
 
-sudo apt update -y && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y &   # 在后台执行更新命令
+APT_PID=$!  # 获取更新命令的进程ID
+
+# 等待更新命令完成
+wait $APT_PID
 
 # 安装 pipx
 sudo apt install -y python3-pip
@@ -28,7 +32,7 @@ source ~/.bashrc
 
 clear
 
-pipx install nb-cli
+pipx install --force nb-cli
 nb self install nb-cli-plugin-littlepaimon
 
 clear
@@ -39,7 +43,7 @@ read -r input
 echo 'u="nb paimon create"' >> ~/.bashrc
 echo 'i="cd LittlePaimon"' >> ~/.bashrc
 echo 'P="nb paimon run"' >> ~/.bashrc
-echo 'p="cd LittlePaimon&&nb paimon run"' >> ~/.bashrc
+echo 'p="cd LittlePaimon && nb paimon run"' >> ~/.bashrc
 
 # 重启
 echo "即将重启系统，请坐和放宽..."
