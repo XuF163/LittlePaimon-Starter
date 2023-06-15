@@ -20,8 +20,7 @@ sudo apt update -y && sudo apt upgrade -y
 
 # 安装 pipx
 apt install pipx
-sudo apt install -y python3-pip
-pip install --user pipx
+
 
 # 设置 pipx 环境变量
 pipx ensurepath
@@ -40,10 +39,10 @@ echo "天理降临ing，按回车继续战斗"
 read -r
 
 # 创建项目并设置相关配置
-echo 'alias nudePaimon="nb paimon create"' >> ~/.bashrc
-echo 'alias findPaimon="cd LittlePaimon"' >> ~/.bashrc
-echo 'alias NudeApp="nb paimon run"' >> ~/.bashrc
-echo 'alias nudeApp="cd LittlePaimon&&nb paimon run"' >> ~/.bashrc
+echo '1="nb paimon create"' >> ~/.bashrc
+echo '2="cd LittlePaimon"' >> ~/.bashrc
+echo 'P="nb paimon run"' >> ~/.bashrc
+echo 'p="cd LittlePaimon&&nb paimon run"' >> ~/.bashrc
 
 echo "输入nudePaimon加载项目资源，findPaimon进入派蒙"
 # 重启
