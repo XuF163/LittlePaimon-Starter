@@ -14,29 +14,14 @@ if [[ $EUID -ne 0 ]]; then
         exit 1
     fi
 fi
-
-
 sudo apt update -y && sudo apt upgrade -y
-
-
 apt install pipx
 pipx ensurepath# 设置 pipx 环境变量
 source ~/.bashrc
 source ~/.profile
-
-
-
-
-
-
 clear
-
 pipx install nb-cli
-
-
 nb self install nb-cli-plugin-littlepaimon
-
-
 clear
 
 echo "天理降临ing，按回车继续战斗"
@@ -47,7 +32,7 @@ echo 'i="cd LittlePaimon"' >> ~/.bashrc
 echo 'P="nb paimon run"' >> ~/.bashrc
 echo 'p="cd LittlePaimon&&nb paimon run"' >> ~/.bashrc
 
-echo "输入nudePaimon加载项目资源，findPaimon进入派蒙"
+echo "输入u i o p"
 # 重启
 echo "即将重启系统，请坐和放宽..."
 sleep 3
