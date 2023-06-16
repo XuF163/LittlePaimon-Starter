@@ -21,6 +21,7 @@ source ~/.bashrc
 source ~/.profile
 clear
 pipx install nb-cli
+cd
 nb self install nb-cli-plugin-littlepaimon
 clear
 
@@ -33,9 +34,7 @@ echo 'P="nb paimon run"' >> ~/.bashrc
 echo 'p="cd LittlePaimon&&nb paimon run"' >> ~/.bashrc
 
 echo "输入u i o p"
-# 重启
-echo "即将重启系统，请坐和放宽..."
-sleep 3
-#sudo reboot
+
+
 
 
