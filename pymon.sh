@@ -3,16 +3,15 @@
 echo "修改版-测试中，不保证可用性"
 
 # 获取 root 权限
-if [[ $EUID -ne 0 ]]; then
+if [ $EUID -ne 0 ]; then
     echo "需要以 root 权限运行脚本，请输入 root 密码："
     sudo -v
-    if [[ $? -ne 0 ]]; then
+    if [ $? -ne 0 ]; then
         echo "认证失败，请检查密码是否正确。"
         exit 1
     fi
 fi
-sudo apt update -y && sudo apt upgrade -y
-apt install pipx -y
+sudo apt update -y && sudo apt upgrade -y&&apt install pipx -y
 pipx ensurepath# 设置 pipx 环境变量
 source ~/.bashrc
 source ~/.profile
