@@ -1,9 +1,6 @@
 #!/bin/bash
 
-echo "如果遇到代码不跑的情况就按回车   
-yes or no 的选项直接y  
-卡死就重新执行脚本
-2023--6更新"
+echo "修改版-测试中，不保证可用性"
 
 # 获取 root 权限
 if [[ $EUID -ne 0 ]]; then
@@ -15,14 +12,18 @@ if [[ $EUID -ne 0 ]]; then
     fi
 fi
 sudo apt update -y && sudo apt upgrade -y
-apt install pipx
+apt install pipx -y
 pipx ensurepath# 设置 pipx 环境变量
 source ~/.bashrc
 source ~/.profile
 clear
+apt-get install python3-pip -y
+pip3 install --upgrade pip
+clear
 pipx install nb-cli
 cd
 nb self install nb-cli-plugin-littlepaimon
+nb paimon create
 clear
 
 echo "天理降临ing，按回车继续战斗"
